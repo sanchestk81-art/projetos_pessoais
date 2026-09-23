@@ -1,0 +1,176 @@
+body{
+     background-color: blueviolet;
+}
+
+.menu{
+    background-color: brown;
+    border-radius: 10px;
+    display: flexbox;
+    margin: 0%;
+}
+.conteudo{
+    background-color: #780000;
+    width: 80%;
+    height: 600px;
+    display: flex;
+    justify-content:center;
+    margin-left: 100px;
+    border-radius: 20px;
+    border-width: 200px;
+    border-top: 100px;
+    gap:10px;
+}
+.conteudo img{
+    width: 10%;
+    height: 90%;
+    object-fit: cover;
+    justify-content: center;
+    border-radius: 10px;
+    border: 2px solid black;
+    transition: all ease-in-out 0.5s;
+}
+.conteudo img:hover{
+    width:25%;
+}
+
+
+/* Bloco das trilogias */
+.trilogias{
+    background-color: #c4aace;
+    border-radius: 10px;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    padding: 0;
+    text-autospace: ;
+}
+.trilogias h2{
+     color:black;
+     margin-top: 10px;
+     display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: baseline;
+
+}
+
+/* Container principal que segura todos os heróis lado a lado */
+.trilogias {
+    background-color: #f55924;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around; /* Distribui os blocos de heróis com espaço entre eles */
+    align-items: flex-start;       /* Alinha todos os blocos pelo topo */
+    width: 100%;
+    min-height: 500px;             /* Usar min-height evita que o conteúdo vaze se for grande */
+    padding: 20px;                 /* Um espaço interno para não colar nas bordas roxas */
+    box-sizing: border-box;
+}
+
+/* Cada bloco individual (Título + Imagens) */
+.card-heroi {
+    display: flex;
+    flex-direction: column;        /* Força o título a ficar EM CIMA das imagens */
+    align-items: center;           /* Centraliza o título em relação às imagens dele */
+    margin: 10px;
+}
+
+/* Estilo dos títulos dos heróis */
+.trilogias h2 {
+    color: black;
+    margin-bottom: 15px;           /* Espaço entre o título e as imagens logo abaixo */
+    font-size: 1.5rem;
+}
+
+/* Configuração interna das imagens para ficarem lado a lado (no caso do Capitão e Iron Man) */
+.imagens-heroi {
+    display: flex;
+    gap: 10px;                     /* Cria um espaço de 10px entre uma imagem e outra */
+}
+
+/* Controla o tamanho das imagens para não quebrarem o layout */
+.imagens-heroi img {
+    width: 120px;                  /* Defina a largura que achar melhor para os posters */
+    height: 180px;                 /* Defina a altura proporcional */
+    object-fit: cover;             /* Garante que a imagem preencha o espaço sem distorcer */
+    border-radius: 5px;            /* Deixa as pontas das fotos arredondadas (opcional) */
+}
+
+
+/* arrumando os blocos das trilogias */
+/* Capitão América */
+ .capitao{
+    background-color: blue;
+    border-radius: 5%;
+    border-top: 500px;
+     width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.capitao img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+.capitao img:hover{
+    width: 50%;
+}
+
+.iron{
+    background-color: red;
+    border-radius: 5%;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.iron img{;
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+.iron img:hover{
+    width: 50%;
+}
+
+
+
+.thor{
+    background-color: green;
+    border-radius: 5%;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+    text-align: left;
+    
+}
+.thor img{
+    width: 30%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+.thor img:hover{
+    width: 50%;
+}
+.thor h2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} */
