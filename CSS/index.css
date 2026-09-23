@@ -1,0 +1,42 @@
+.{
+     background-color: blueviolet;
+}
+.conteudo{
+    background-color: #780000;
+    width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.conteudo img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+.conteudo img:hover{
+    width:25%;
+}
+
+
+.capitao{
+     width: 80%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    gap:10px;
+}
+.capitao img{
+    width: 10%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid white;
+    transition: all ease-in-out 0.5s;
+}
+.capitao img:hover{
+    width: 20%;
+}
